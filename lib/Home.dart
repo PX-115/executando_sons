@@ -64,7 +64,7 @@ class _HomeState extends State<Home> {
             max: 1,
             onChanged: (novoVolume){
               setState(() {
-                _volume = novoVolume;                
+                _volume = novoVolume;        
               });
               audioPlayer.setVolume(novoVolume);
             },
